@@ -1,0 +1,105 @@
+{
+  "common": {
+    "search": "Cari",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "create": "Buat",
+    "update": "Perbarui",
+    "loading": "Memuat...",
+    "error": "Error",
+    "success": "Berhasil",
+    "confirm": "Konfirmasi",
+    "close": "Tutup"
+  },
+  "auth": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "logout": "Keluar",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "username": "Username",
+    "name": "Nama",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "resetPassword": "Reset Kata Sandi",
+    "verifyEmail": "Verifikasi Email",
+    "loginSuccess": "Login berhasil!",
+    "registerSuccess": "Pendaftaran berhasil! Silakan cek email Anda.",
+    "logoutSuccess": "Logout berhasil!",
+    "invalidCredentials": "Email atau kata sandi salah"
+  },
+  "dashboard": {
+    "title": "Dasbor",
+    "overview": "Ringkasan",
+    "totalTasks": "Total Tugas",
+    "completedTasks": "Selesai",
+    "inProgressTasks": "Dalam Proses",
+    "overdueTasks": "Terlambat",
+    "productivity": "Produktivitas",
+    "calendar": "Kalender",
+    "recentActivity": "Aktivitas Terkini"
+  },
+  "tasks": {
+    "title": "Tugas",
+    "newTask": "Tugas Baru",
+    "taskTitle": "Judul Tugas",
+    "description": "Deskripsi",
+    "priority": "Prioritas",
+    "status": "Status",
+    "dueDate": "Tenggat Waktu",
+    "category": "Kategori",
+    "tags": "Tag",
+    "subtasks": "Sub-tugas",
+    "addSubtask": "Tambah Sub-tugas",
+    "noTasks": "Tidak ada tugas",
+    "createFirst": "Buat tugas pertama Anda untuk memulai",
+    "filterByStatus": "Filter berdasarkan Status",
+    "filterByPriority": "Filter berdasarkan Prioritas",
+    "sortBy": "Urutkan Berdasarkan",
+    "priorities": {
+      "LOW": "Rendah",
+      "MEDIUM": "Sedang",
+      "HIGH": "Tinggi",
+      "URGENT": "Mendesak"
+    },
+    "statuses": {
+      "TODO": "Belum Dikerjakan",
+      "IN_PROGRESS": "Sedang Dikerjakan",
+      "COMPLETED": "Selesai",
+      "CANCELLED": "Dibatalkan"
+    }
+  },
+  "notes": {
+    "title": "Catatan",
+    "newNote": "Catatan Baru",
+    "noteTitle": "Judul Catatan",
+    "content": "Konten",
+    "pinned": "Disematkan",
+    "archived": "Diarsipkan",
+    "noNotes": "Tidak ada catatan",
+    "createFirst": "Buat catatan pertama Anda untuk memulai"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "account": "Akun",
+    "appearance": "Tampilan",
+    "language": "Bahasa",
+    "notifications": "Notifikasi",
+    "theme": "Tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem",
+    "exportData": "Ekspor Data",
+    "importData": "Impor Data",
+    "dangerZone": "Zona Bahaya",
+    "deleteAccount": "Hapus Akun"
+  },
+  "errors": {
+    "somethingWrong": "Terjadi kesalahan",
+    "tryAgain": "Silakan coba lagi",
+    "notFound": "Tidak ditemukan",
+    "unauthorized": "Tidak terotorisasi",
+    "serverError": "Error server"
+  }
+}

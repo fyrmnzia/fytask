@@ -1,0 +1,105 @@
+{
+  "common": {
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "name": "Name",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "verifyEmail": "Verify Email",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful! Please check your email.",
+    "logoutSuccess": "Logout successful!",
+    "invalidCredentials": "Invalid email or password"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "totalTasks": "Total Tasks",
+    "completedTasks": "Completed",
+    "inProgressTasks": "In Progress",
+    "overdueTasks": "Overdue",
+    "productivity": "Productivity",
+    "calendar": "Calendar",
+    "recentActivity": "Recent Activity"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "newTask": "New Task",
+    "taskTitle": "Task Title",
+    "description": "Description",
+    "priority": "Priority",
+    "status": "Status",
+    "dueDate": "Due Date",
+    "category": "Category",
+    "tags": "Tags",
+    "subtasks": "Subtasks",
+    "addSubtask": "Add Subtask",
+    "noTasks": "No tasks found",
+    "createFirst": "Create your first task to get started",
+    "filterByStatus": "Filter by Status",
+    "filterByPriority": "Filter by Priority",
+    "sortBy": "Sort By",
+    "priorities": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High",
+      "URGENT": "Urgent"
+    },
+    "statuses": {
+      "TODO": "To Do",
+      "IN_PROGRESS": "In Progress",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "newNote": "New Note",
+    "noteTitle": "Note Title",
+    "content": "Content",
+    "pinned": "Pinned",
+    "archived": "Archived",
+    "noNotes": "No notes found",
+    "createFirst": "Create your first note to get started"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "appearance": "Appearance",
+    "language": "Language",
+    "notifications": "Notifications",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "exportData": "Export Data",
+    "importData": "Import Data",
+    "dangerZone": "Danger Zone",
+    "deleteAccount": "Delete Account"
+  },
+  "errors": {
+    "somethingWrong": "Something went wrong",
+    "tryAgain": "Please try again",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "serverError": "Server error"
+  }
+}

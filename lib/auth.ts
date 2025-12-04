@@ -5,7 +5,7 @@ import { User } from "@/app/generated/prisma/client";
 import { randomBytes } from "crypto";
 
 const JWT_SECRET: Secret = process.env.JWT_SECRET || "fallback-secret-change-me";
-const JWT_EXPIRES_IN = (process.env.JWT_EXPIRES_IN || "1h") as SignOptions["expiresIn"];
+const JWT_EXPIRES_IN = (process.env.JWT_EXPIRES_IN || "7d") as SignOptions["expiresIn"];
 
 export interface JWTPayload {
   userId: string;
