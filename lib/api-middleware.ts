@@ -3,7 +3,7 @@ import { getUserFromRequest } from "./auth";
 import { redisHelpers } from "./redis";
 import { apiError } from "./utils";
 import type { User } from "@/app/generated/prisma/client";
-import prisma from "./prisma";
+import { prisma } from "./prisma";
 
 export interface AuthenticatedRequest extends NextRequest {
   user?: User;

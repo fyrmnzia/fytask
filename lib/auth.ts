@@ -1,6 +1,6 @@
 import jwt, { Secret, SignOptions } from "jsonwebtoken";
 import bcrypt from "bcryptjs";
-import prisma from "./prisma";
+import { prisma } from "./prisma";
 import { User } from "@/app/generated/prisma/client";
 import { randomBytes } from "crypto";
 

@@ -38,6 +38,7 @@ export const createTaskSchema = z.object({
   tagIds: z.array(z.string()).optional(),
   isRecurring: z.boolean().default(false),
   recurrenceRule: z.string().optional().nullable(),
+  snoozedUntil: z.string().datetime().optional(),
 });
 
 export const updateTaskSchema = createTaskSchema.partial();
