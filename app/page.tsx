@@ -1,15 +1,7 @@
-import { CommandPalette } from "@/components/shared/CommandPalette";
-import { GlobalSearch } from "@/components/shared/GlobalSearch";
-import { Navbar } from "@/components/shared/Navbar";
-import { Sidebar } from "@/components/shared/Sidebar";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div>
-      <Navbar />
-      <Sidebar />
-      <CommandPalette />
-      <GlobalSearch />
-    </div>
-  );
+export default function HomePage() {
+  // Redirect to dashboard or login based on auth state
+  // Client-side redirect will be handled by AuthProvider
+  redirect("/dashboard");
 }
