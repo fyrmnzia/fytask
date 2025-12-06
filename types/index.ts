@@ -159,3 +159,7 @@ export interface NoteTag {
   tagId: string;
   tag: Tag;
 }
+
+export type ActivityLogWithTask = ActivityLog & {
+  task: { title: string } | null;
+};

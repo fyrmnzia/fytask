@@ -4,21 +4,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { formatRelativeTime } from "@/lib/utils";
 import { CheckCircle2, FileText, Trash2, Edit } from "lucide-react";
-import type { ActivityLog } from "@/types";
-import type { Prisma } from "@/app/generated/prisma/client";
-
-export type ActivityLogWithTask = Prisma.ActivityLogGetPayload<{
-  include: {
-    task: {
-      select: {
-        title: true;
-      };
-    };
-  };
-}>;
+import { ActivityLogWithTask } from "@/types";
 
 interface RecentActivityProps {
-  activities?: ActivityLogWithTask[];
+  activities: ActivityLogWithTask[];
 }
 
 export function RecentActivity({ activities = [] }: RecentActivityProps) {
@@ -37,7 +26,7 @@ export function RecentActivity({ activities = [] }: RecentActivityProps) {
     }
   };
 
-  const getActionText = (activity: ActivityLog) => {
+  const getActionText = (activity: ActivityLogWithTask) => {
     const action = activity.action.toLowerCase();
     return `${action} ${activity.entityType.toLowerCase()}`;
   };
